@@ -5,7 +5,7 @@ SOCK_BUFFER = 4
 
 if __name__ == "__main__":
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ("192.168.0.25", 5000)  # cambiar para usar en otra computadora
+    server_address = ("localhost", 5000)  # cambiar para usar en otra computadora
     
     print(f"Conectando a {server_address[0]}:{server_address[1]}")
 
